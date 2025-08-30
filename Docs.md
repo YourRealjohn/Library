@@ -259,6 +259,32 @@ local Image = AddImageLabel(Main, {
 })
 ```
 
+##  Create an Discord invite
+```lua
+AddDiscord(Main, {
+    DiscordLink = "https://github.com/YourRealjohn",
+    DiscordIcon = "rbxassetid://",
+    DiscordTitle = "Github"
+})
+```
+
+##  Create an Link Giver
+```lua
+AddUniversalDiscord(Main, {
+    DiscordLink = "https://github.com/YourRealjohn",
+    DiscordIcon = "rbxassetid://",
+    DiscordTitle = "Github"
+})
+```
+
+##  Create an Image
+```lua
+local Image = AddImageLabel(Main, {
+  Name = "Cool Image",
+  Image = "rbxassetid://"
+})
+```
+
 ##  Update Image
 ```lua
 SetImage(Image, "rbxassetid://4155801252")
