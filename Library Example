@@ -80,13 +80,7 @@ DestroyScript()
 AddOrionButton(Main, {
   Name = "Testing",
   Callback = function()
-local MobileToggle = AddMobileToggle({
-  Name = "Mobile Toggle",
-  Visible = true,
-  Callback = function(Value)
-    -- your function
-  end
-})
+print("Meow")
   end
 })
 
@@ -140,6 +134,22 @@ local Dropdown = AddDropdown(Main, {
 AddColorPicker(Main, {
   Name = "Test Color Picker",
   Default = Color3.fromRGB(255, 255, 0),
+  Callback = function(Value)
+    -- your function
+  end
+})
+
+local MobileToggle = AddMobileToggle({
+  Name = "Mobile Toggle",
+  Visible = true,
+  Callback = function(Value)
+    -- your function
+  end
+})
+
+local BigMobileToggle = AddMobileToggle({
+  Name = "Mobile Toggle",
+  Visible = true,
   Callback = function(Value)
     -- your function
   end
