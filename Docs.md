@@ -300,9 +300,9 @@ local MobileToggle = AddMobileToggle({
 MobileToggle.Visible = true -- or false
 ```
 
-##  Mobile Toggle (Floating)
+##  Mobile Toggle (Floating) -- Bigger version
 ```lua
-local MobileToggle = AddMobileToggle({
+local BigMobileToggle = AddMobileToggle({
   Name = "Mobile Toggle",
   Visible = true,
   Callback = function(Value)
