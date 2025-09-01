@@ -277,14 +277,6 @@ AddUniversalDiscord(Main, {
 })
 ```
 
-##  Create an Image
-```lua
-local Image = AddImageLabel(Main, {
-  Name = "Cool Image",
-  Image = "rbxassetid://"
-})
-```
-
 ##  Update Image
 ```lua
 SetImage(Image, "rbxassetid://4155801252")
@@ -293,6 +285,19 @@ SetImage(Image, "rbxassetid://4155801252")
 ##  Destroy the Script
 ```lua
 DestroyScript()
+```
+
+##  Mobile Toggle (Floating)
+```lua
+local MobileToggle = AddMobileToggle({
+  Name = "Mobile Toggle",
+  Visible = true,
+  Callback = function(Value)
+    -- your function
+  end
+})
+
+MobileToggle.Visible = true -- or false
 ```
 
 ##  Mobile Toggle (Floating)
